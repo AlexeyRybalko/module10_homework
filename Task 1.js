@@ -1,7 +1,7 @@
 let a = +prompt("Пожалуйста, введите любое число");
 
 if (typeof a === 'number' && !isNaN(a)) {
-  if (x % 2 === 0) {
+  if (a % 2 === 0) {
     console.log("Это число чётное")
   } else {
     console.log("Это число нечётное")
